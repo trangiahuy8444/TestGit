@@ -1,7 +1,17 @@
-
+body
+{
+    background-color: cadetblue;
+    text-align: center;
+}
+caption
+{
+    margin-top: 100px;
+}
 table
 {
     width: 50%;
+    margin: auto;
+    margin-top: 200px;
 }
 th
 {
