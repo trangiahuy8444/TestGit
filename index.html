@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <caption><h2>DANG KY THANH VIEN CLB AM NHAC</h2></caption>
+    <form action="" method="post" enctype="multipart/form-data">
+        <table>
+            <tr>
+                <th>Ho Ten</th>
+                <td>
+                    <input type="text" name="hoten">
+                </td>
+            </tr>
+            <tr>
+                <th>Ten dang nhap</th>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <th>Mat khau</th>
+                <td>
+                    <input type="password" name="matkhau">
+                </td>
+            </tr>
+            <tr>
+                <th>Go lai mat khau</th>
+                <td>
+                    <input type="password">
+                </td>
+            </tr>
+            <tr>
+                <th>Phai</th>
+                <td>
+                    <input type="radio" value="Nam" name="phai">
+                    <input type="radio" value="Nu" name="phai">
+                </td>
+            </tr>
+            <tr>
+                <th>Ngoai ngu</th>
+                <td>
+                    <input type="checkbox" value="Anh" >Anh  
+                    <input type="checkbox" value="Phap" >Phap
+                    <input type="checkbox" value="Hoa" >Hoa
+                </td>
+            </tr>
+            <tr>
+                <th>Nghe nghiep</th>
+                <td>
+                    <!-- Muốn chọn nhiều thì thêm multiple , nhấn ctrl để chọn-->
+                    <select name="nghenghiep" id=""> 
+                        <option value="Hoc sinh - sinh vien">Hoc sinh - sinh vien</option>
+                        <option value="Giao vien" selected>giao vien</option>
+                        <option value="Giang vien">giang vien</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Hinh</th>
+                <td>
+                    <input type="file" name="hinh" id="">
+                </td>
+            </tr>
+            <tr>
+                <th>So thich</th>
+                <td>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan = "2" style="text-align: center;">
+                    <!-- type submit phải nằm trong form để có thể gửi dữ liệu trong form đi -->
+                    <!-- type button dùng để gọi javascript -->
+                    <input type="submit" value="Dang ky">
+                    <input type="reset" value="Lam lai">
+                </td>
+            </tr>
+        </table>
+    </form>
+  </body>
+</html>
